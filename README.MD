@@ -8,9 +8,9 @@ POST : /sla/dateline
 
 requestBody : JSON
 {
-    ref : string
-    hour: unsigned integer
-    date: string YYYY-MM-DD HH
+    "ref" : string,
+    "hour": unsigned integer,
+    "date": string YYYY-MM-DD HH
 }
 
 ## explanation
