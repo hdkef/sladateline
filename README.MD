@@ -2,6 +2,17 @@
 
 > $ go run main.go
 
+## documentation
+
+POST : /sla/dateline
+
+requestBody : JSON
+{
+    ref : string
+    hour: unsigned integer
+    date: string YYYY-MM-DD HH
+}
+
 ## explanation
 
 1. inisiasi variabel datePointer, hourOfWork, dateLine50, dateLine75, dateLine100
